@@ -1,11 +1,11 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Deploy static app to Azure Web App - mvp-tvbox
+name: deploy tvbox
 
 on:  
   workflow_run:
-    workflows: [repo-sync]
+    workflows: [repo sync]
     types:
       - completed
   workflow_dispatch:
